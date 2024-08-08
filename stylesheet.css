@@ -1,0 +1,36 @@
+body {
+    background-color: #1f2937; /* Set the background color for the entire page */
+    margin: 0; /* Remove default margin */
+    font-family: sans-serif; /* Set the default font for the page */
+}
+
+.flex-container1{
+    display: flex;
+    background-color: #1f2937 ;
+    flex-direction: column;
+
+}
+
+.header{
+    display: flex;
+ 
+
+    
+}
+
+.logo {
+    padding: 10px;
+}
+.links{
+    display: flex;
+    margin-left: auto;
+   
+    align-items: center;
+}
+
+.links div {
+    margin: 10px;
+    font-size: small;
+    
+}
+
