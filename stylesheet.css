@@ -142,4 +142,63 @@ body {
     font-size: xx-small;
 }
 
+.flex-container3{
+    color: grey;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 75px;
+}
+
+.textbox3{
+    padding-top: 75px;
+    width: 400px;
+}
+
+.textbox3end {
+    display: flex;                 /* Enables Flexbox */
+    justify-content: flex-end;     /* Aligns the text to the right */
+    width: 400px;                  /* Set the same width as .textbox3 for consistency */
+}
+
+.flex-container4{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 200px;
+    flex-direction: row;
+    
+    
+
+}
+
+.innerbox4{
+    display: flex;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 700px;
+    height: 100px;
+    border-radius: 15px;               /* Rounds the corners */
+}
+
+.call{
+   
+   
+    color:white;
+    padding-right: 20px;
+
+}
+.subcalltoaction{
+    color:grey;
+    font-size: xx-small;
+}
+
+.signupbutton{
+    
+
+}
+
 
